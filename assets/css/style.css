@@ -6,12 +6,13 @@
 
 body {
     font-family: "Poppins";
+    background-color: #001e42;
 }
 
 h5 {
     font-size: 1.5rem;
     margin: 2rem 0;
-    color: black;
+    color: darkgray;
     font-weight: 700;
 }
 
@@ -38,14 +39,16 @@ p {
     padding: 43px;
     position: relative;
     cursor: pointer;
+    background-color: #0f3062;
 }
 
-.cardItem::before , .cardItem::after {
+.cardItem::before,
+.cardItem::after {
     content: '';
     position: absolute;
     width: 20%;
     height: 20%;
-    transition: all 0.5s ease ;
+    transition: all 0.5s ease;
 }
 
 .cardItem::before {
