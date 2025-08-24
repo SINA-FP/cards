@@ -1,13 +1,19 @@
+/* ---------- Reset default styles for all elements ---------- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ---------- Body style ---------- */
+
 body {
     font-family: "Poppins";
     background-color: #001e42;
 }
+
+/* ---------- Header style ---------- */
 
 h5 {
     font-size: 1.5rem;
@@ -16,14 +22,20 @@ h5 {
     font-weight: 700;
 }
 
+/* ---------- Paragraph style ---------- */
+
 p {
     color: darkgrey;
 }
+
+/* ---------- main container ---------- */
 
 .container {
     max-width: 1330px;
     margin: 5rem auto;
 }
+
+/* ---------- Card section ---------- */
 
 .section {
     display: grid;
@@ -31,6 +43,8 @@ p {
     gap: 2rem;
     padding: 0 10px;
 }
+
+/* ---------- Card item style ---------- */
 
 .cardItem {
     width: 100%;
@@ -66,6 +80,8 @@ p {
     border-left: 3px solid;
     border-top-left-radius: 20px;
 }
+
+/* ---------- Card border color ---------- */
 
 .search::before,
 .search::after {
